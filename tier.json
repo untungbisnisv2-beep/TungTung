@@ -1,0 +1,56 @@
+{
+    "demo": {
+        "max_devices": 1,
+        "max_running_project": 1,
+        "max_upload": 3,
+        "daily_scraper_limit": 0,
+        "allowed_regions": ["id"],
+        "included_addons": [],
+        "watermark": true
+    },
+    "starter": {
+        "max_devices": 3,
+        "max_running_project": 3,
+        "max_upload": 999999,
+        "daily_scraper_limit": 999999,
+        "allowed_regions": ["id"],
+        "included_addons": [],
+        "watermark": false
+    },
+    "pro": {
+        "max_devices": 10,
+        "max_running_project": 10,
+        "max_upload": 999999,
+        "daily_scraper_limit": 999999,
+        "allowed_regions": ["id"],
+        "included_addons": ["analyzer", "auto_interact"],
+        "watermark": false
+    },
+    "agency": {
+        "max_devices": 999,
+        "max_running_project": 999,
+        "max_upload": 999999,
+        "daily_scraper_limit": 999999,
+        "allowed_regions": [],
+        "included_addons": [],
+        "watermark": false
+    },
+    "sultan": {
+        "max_devices": 999,
+        "max_running_project": 999,
+        "max_upload": 999999,
+        "daily_scraper_limit": 999999,
+        "allowed_regions": ["all"],
+        "included_addons": ["all"],
+        "watermark": false
+    },
+    "admin": {
+        "max_devices": 999,
+        "max_running_project": 999,
+        "max_upload": 999999,
+        "daily_scraper_limit": 999999,
+        "allowed_regions": ["all"],
+        "included_addons": ["all"],
+        "watermark": false
+    }
+}
