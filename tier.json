@@ -3,10 +3,10 @@
         "max_devices": 1,
         "max_running_project": 1,
         "max_upload": 3,
-        "daily_scraper_limit": 0,
-        "allowed_regions": ["id"],
-        "included_addons": [],
-        "watermark": true
+        "daily_scraper_limit": 5,      # Limit sangat kecil untuk tester
+        "allowed_regions": ["id"],      # Cuma bisa Indonesia
+        "included_addons": [],          # Tidak ada fitur canggih
+        "watermark": True               # Flag untuk watermark video (opsional)
     },
     "starter": {
         "max_devices": 3,
@@ -14,43 +14,45 @@
         "max_upload": 999999,
         "daily_scraper_limit": 999999,
         "allowed_regions": ["id"],
-        "included_addons": [],
-        "watermark": false
+        "included_addons": ["scraper"],
+        "watermark": False
     },
     "pro": {
         "max_devices": 10,
         "max_running_project": 10,
         "max_upload": 999999,
-        "daily_scraper_limit": 999999,
-        "allowed_regions": ["id"],
-        "included_addons": ["analyzer", "auto_interact"],
-        "watermark": false
+        "daily_scraper_limit": 999999,  # Unlimited
+        "allowed_regions": ["id"],      
+        "included_addons": ["scraper", "tiktok"],
+        "watermark": False
     },
+    
     "agency": {
-        "max_devices": 999,
+        "max_devices": 999,             
         "max_running_project": 999,
         "max_upload": 999999,
-        "daily_scraper_limit": 999999,
-        "allowed_regions": [],
-        "included_addons": [],
-        "watermark": false
+        "daily_scraper_limit": 999999,  
+        "allowed_regions": ["id"],          
+        "included_addons": ["scraper", "tiktok"],          
+        "watermark": False
     },
+    # ▲▲▲ AKHIR TIER BARU ▲▲▲
     "sultan": {
-        "max_devices": 999,
+        "max_devices": 999,             # Unlimited (Phone Farm)
         "max_running_project": 999,
         "max_upload": 999999,
         "daily_scraper_limit": 999999,
-        "allowed_regions": ["all"],
+        "allowed_regions": ["all"],     # Semua negara
         "included_addons": ["all"],
-        "watermark": false
+        "watermark": False
     },
     "admin": {
-        "max_devices": 999,
+        "max_devices": 999,             # Unlimited (Phone Farm)
         "max_running_project": 999,
         "max_upload": 999999,
         "daily_scraper_limit": 999999,
-        "allowed_regions": ["all"],
+        "allowed_regions": ["all"],     # Semua negara
         "included_addons": ["all"],
-        "watermark": false
+        "watermark": False
     }
 }
